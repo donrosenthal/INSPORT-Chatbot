@@ -5,6 +5,7 @@ import streamlit as st
 
 # Load environment variables
 openai_key = os.getenv("OPENAI_KEY")
+print(f".{openai_key},")
 
 # Initialize OpenAI client
 client = openai.OpenAI(api_key=openai_key)
