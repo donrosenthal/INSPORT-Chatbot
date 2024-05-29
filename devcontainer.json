@@ -9,7 +9,4 @@
     ],
     "postCreateCommand": "pip install -r requirements.txt",
     "remoteEnv": {
-      "OPENAI_API_KEY": ""
-    }
-  }
-  
+      "OPENAI_KEY": "sk-proj-dTSJc6gJ4ef1tlOHpmc1T3BlbkFJcZdpzpJYWQmqSVZKbP3"
