@@ -1,0 +1,15 @@
+{
+    "name": "InsPor Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/zsh"
+    },
+    "extensions": [
+      "ms-python.python"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteEnv": {
+      "OPENAI_API_KEY": ""
+    }
+  }
+  
