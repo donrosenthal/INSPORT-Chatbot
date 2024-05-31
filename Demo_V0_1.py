@@ -38,6 +38,7 @@ def get_gpt4_response(prompt, system_message):
     )
     return response.choices[0].message.content.strip()
 
+
 # Define the layout for the initial screen
 def initial_screen():
     st.markdown("<h1 style='color: purple; text-align: center;'>Hi, I'm your Insurance Portal Chatbot</h1>", unsafe_allow_html=True)
