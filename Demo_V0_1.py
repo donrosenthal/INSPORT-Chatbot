@@ -5,7 +5,6 @@ import streamlit as st
 
 # Load environment variables
 openai_key = os.getenv("OPENAI_KEY")
-print(f".{openai_key},")
 
 # Initialize OpenAI client
 client = openai.OpenAI(api_key=openai_key)
@@ -45,9 +44,10 @@ def initial_screen():
     st.markdown("<h2 style='text-align: center;'>Ask me any insurance related question</h2>", unsafe_allow_html=True)
 
     col1, col2, col3, col4 = st.columns(4)
-
+    
     card_html = """
     <div style="position: relative; text-align: center; color: white; margin-bottom: 20px; height: 250px;">
+         <img src="{img_url}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 10px; width: 90%; max-width: 200px; text-shadow: 1px 1px 2px black; text-align: center;">
         <h4 style="margin: 0; font-size: 16px; color: white; text-align: center;">{caption}</h4>
       </div>

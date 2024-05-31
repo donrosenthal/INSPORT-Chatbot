@@ -1,3 +1,54 @@
+
+Deprecated after conversion to devcontainer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nice! You've got a devcontainer setup for your Streamlit project. To invoke it and run your app 
+on GitHub's codespace, follow these steps:
+
+1. Open your codespace by clicking the "Code" button on your GitHub repository and selecting "Open with Codespaces".
+
+2. Once the codespace is launched, open a terminal by clicking the "Terminal" button or pressing Ctrl+Shift+ (Windows/Linux) 
+or Cmd+Shift+ (Mac).
+
+3. In the terminal, run the command code . (dot) to open the folder in the VS Code editor.
+
+4. In the VS Code editor, open the Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+
+5. Type "Reopen in Container" and select the command "Remote-Containers: Reopen in Container" from the dropdown.
+
+6. Wait for the container to rebuild and the VS Code editor to reload.
+
+7. Once the container is up and running, you can activate the virtual environment by running source .venv/bin/activate 
+in the terminal.
+
+8. Finally, run your Streamlit app using streamlit run your_app.py (replace your_app.py with your actual app file name).
+
+This should launch your Streamlit app in the codespace environment. Let me know if you encounter any issues or have further questions!
+
+
+
 To set up and activate the .venv environment:
 ./setup_env.sh
 
