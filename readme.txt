@@ -24,6 +24,32 @@ Deprecated after conversion to devcontainer
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Nice! You've got a devcontainer setup for your Streamlit project. To invoke it and run your app 
 on GitHub's codespace, follow these steps:
 
